@@ -1,0 +1,1 @@
+export const TrustNetsFactory = "0x567150012dB7f69B318CF44F7A24E2297a4Ad6f1";
