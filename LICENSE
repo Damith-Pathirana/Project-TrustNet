@@ -1,0 +1,40 @@
+# TrustNet Source-Available License
+
+Copyright (c) 2026 TrustNet Authors. All rights reserved.
+
+## 1. DEFINITIONS
+
+"Software" refers to the TrustNet source code, documentation, and associated files in this repository.
+"Licensor" refers to the copyright holder(s) of the Software.
+"You" refers to an individual or entity exercising rights under this License.
+
+## 2. GRANT OF RIGHTS
+
+Subject to the terms and conditions of this License, the Licensor hereby grants You a non-exclusive, non-transferable, non-sublicensable license to:
+
+1. **View and Fork**: View the source code and fork the repository for personal use or contribution purposes.
+2. **Contribute**: Submit pull requests or suggestions to the original repository. By submitting a contribution, You grant the Licensor a non-exclusive, perpetual, irrevocable, worldwide, royalty-free license to use, modify, and distribute Your contribution as part of the Software.
+
+## 3. RESTRICTIONS
+
+Unless You have received express written permission from the Licensor and fulfilled any required payment obligations:
+
+1. **No Commercial Use**: You may NOT use the Software or any derivative works for commercial purposes. This includes, but is not limited to, running a live instance of the platform for profit, using the code in a commercial product, or providing services based on the Software.
+2. **No Public Deployment**: You may NOT deploy the Software to a public network (mainnet or public testnet) for general use.
+3. **No Redistribution**: You may NOT redistribute the Software or any modifications thereof to third parties.
+
+## 4. NOTIFICATION AND PAYMENT
+
+If You wish to use the Software for any purpose not explicitly granted in Section 2 (Grant of Rights), You MUST:
+
+1. **Notify the Licensor**: Contact the Licensor at [ADD YOUR CONTACT EMAIL/LINK HERE] to state Your intended use.
+2. **Execute a Commercial License**: Negotiate and sign a separate commercial license agreement.
+3. **Fulfill Payment**: Pay any fees as agreed upon in the commercial license agreement.
+
+## 5. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+For inquiries regarding commercial licensing, please contact: [ADD YOUR CONTACT INFORMATION HERE]

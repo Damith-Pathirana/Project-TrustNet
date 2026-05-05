@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/nodemailer": "^6.4.17",
+    "html-to-image": "^1.11.13",
+    "nodemailer": "^7.0.3",
+    "react-joyride": "^2.9.3"
+  }
+}
