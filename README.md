@@ -120,8 +120,8 @@ Follow these instructions to set up the project locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/TrustNet.git
-cd TrustNet
+git clone https://github.com/Damith-Pathirana/Project-TrustNet.git
+cd Project-TrustNet
 ```
 
 ### 2. Smart Contract Setup
