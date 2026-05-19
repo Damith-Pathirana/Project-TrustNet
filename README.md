@@ -73,10 +73,10 @@ We've designed a sleek, modern, and highly responsive user interface featuring a
 | <img src="./screenshots/3_my_claims.png" alt="My Claims Screen" width="500"/> | <img src="./screenshots/6_profile.png" alt="User Profile Screen" width="500"/> |
 | *A dedicated management workspace for claims you have created.* | *Track your personal metrics, levels, and verification accuracy.* |
 
-| **Conceptual Guide** | **MetaMask Connection** |
-| :---: | :---: |
-| <img src="./screenshots/4_about.png" alt="About View Screen" width="500"/> | <img src="./screenshots/metamask_connected.png" alt="MetaMask Wallet Connected Screen" width="500"/> |
-| *Detailed conceptual views on game-theoretic consensus.* | *On-chain action wallet connection.* |
+| **Conceptual Guide** |
+| :---: |
+| <img src="./screenshots/4_about.png" alt="About View Screen" width="600"/> |
+| *Detailed conceptual views on game-theoretic consensus.* |
 
 ---
 
