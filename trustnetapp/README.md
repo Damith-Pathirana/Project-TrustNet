@@ -1,59 +1,74 @@
+# 💻 TrustNet — Frontend Web Application
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+> This directory contains the **Next.js 14** web application for **TrustNet**, a decentralized crowd-sourced fact-checking platform.
+> For the master documentation, project showcase screenshots, smart contract specifications, and the research thesis, please refer to the **[Main Project README](../README.md)**.
 
-# thirdweb-next-starter
+---
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+## ⚡ Key Application Features
 
-## Installation
+- 🔑 **Web3 Connection**: Integrated Connect Wallet button using **thirdweb v5 SDK** (supporting MetaMask, Coinbase, and other major wallets).
+- 🧭 **Guided Tour**: Dynamic tutorial interface using `react-joyride` to onboard new users step-by-step.
+- 🧠 **Recommendation Engine**: Personalized user preference detection that highlights claims to verify based on interaction history.
+- 🚰 **Sepolia Faucet Widget**: Directly embedded widget to access Sepolia testnet resources.
+- 📊 **Interactive Charts**: Custom data visualizations for voting status using Chart.js.
+- 🔍 **Filter & Search**: Interactive scrollable category filter and real-time live search.
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+---
 
-```bash
-  npx thirdweb create app --next
+## 🚀 Quick Start
+
+### 1. Configure Environment Variables
+Create a `.env.local` file in this directory and populate it with your thirdweb client credentials:
+
+```env
+NEXT_PUBLIC_TEMPLATE_CLIENT_ID=your_thirdweb_client_id_here
 ```
 
-## Environment Variables
+*(Create a free account and get your client ID at [thirdweb.com/dashboard](https://thirdweb.com/dashboard))*
 
-To run this project, you will need to add the following environment variables to your .env file:
-
-`CLIENT_ID`
-
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
-
-## Run locally
-
-Install dependencies
+### 2. Install Dependencies
+Using your preferred package manager:
 
 ```bash
-yarn
+npm install
+# or
+yarn install
 ```
 
-Start development server
+### 3. Run Development Server
+Start the local server with standard Next.js compilation or with Turbopack for lightning-fast speeds:
 
 ```bash
-yarn dev
+# Standard
+npm run dev
+
+# Turbopack (Recommended)
+npm run dev:turbo
 ```
 
-Create a production build
+Open **[http://localhost:3000](http://localhost:3000)** in your browser to view the application.
 
-```bash
-yarn build
+---
+
+## 📦 Directory Structure
+
+```text
+trustnetapp/
+├── public/                 # Static assets and icons
+└── src/
+    └── app/
+        ├── client.ts       # thirdweb client configuration
+        ├── page.tsx        # Dashboard page & recommendation feed
+        ├── layout.tsx      # Core viewport, HTML layout, and metadata
+        ├── components/     # Custom UI widgets (faucet, charts, tutorials, navbar)
+        └── constants/      # Contract address constants and ABIs
 ```
 
-Preview the production build
+---
 
-```bash
-yarn start
-```
+## 🔗 Related Resources
 
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+- **[Master README](../README.md)**
+- **[Decentralized (thesis).pdf](../Decentralized%20(thesis).pdf)**
+- **[Smart Contracts Codebase](../trustnetcontract)**
