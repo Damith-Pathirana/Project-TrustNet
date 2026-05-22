@@ -48,7 +48,7 @@ By tying economic stakes to votes, validators are financially incentivized to vo
 
 This project is the practical implementation of the comprehensive research, design concepts, and mathematical consensus models presented in the thesis:
 
-📌 **[Read the Full Thesis Document: Decentralized (thesis).pdf](./Decentralized%20(thesis).pdf)**
+📌 **[Read the Full Thesis Document: Decentralized (thesis).pdf](./Blockchain%20based%20fact%20checking%20thesis.pdf)**
 
 The thesis details the theoretical framework, mathematical models for reputation, game-theoretic analysis of consensus-driven voting, and the core smart contract architectures that prevent sybil attacks while rewarding honest fact-checkers.
 
